@@ -325,30 +325,6 @@ func main() {
 		logger.Fatal("Invalid --to email:", err)
 	}
 
-	// // Parse CC addresses
-	// var cc []string
-	// if *ccAddrs != "" {
-	// 	for _, addr := range strings.Split(*ccAddrs, ",") {
-	// 		addr = strings.TrimSpace(addr)
-	// 		if _, err := ParseEmailAddress(addr); err != nil {
-	// 			logger.Fatal(fmt.Sprintf("Invalid CC email '%s': %v", addr, err))
-	// 		}
-	// 		cc = append(cc, addr)
-	// 	}
-	// }
-	//
-	// // Parse BCC addresses
-	// var bcc []string
-	// if *bccAddrs != "" {
-	// 	for _, addr := range strings.Split(*bccAddrs, ",") {
-	// 		addr = strings.TrimSpace(addr)
-	// 		if _, err := ParseEmailAddress(addr); err != nil {
-	// 			logger.Fatal(fmt.Sprintf("Invalid BCC email '%s': %v", addr, err))
-	// 		}
-	// 		bcc = append(bcc, addr)
-	// 	}
-	// }
-
 	// Parse CC addresses
 	var cc []string
 	if *ccAddrs != "" {
