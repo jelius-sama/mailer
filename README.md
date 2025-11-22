@@ -1,4 +1,4 @@
-# 📧 Mailer - Production Ready Email CLI & Library
+# 📧 Mailer - Email CLI & Library
 
 ## 🚀 Quick Start
 
